@@ -6,5 +6,6 @@ public class Task1 {
         Airplane air2 = new Airplane("Airbus", 2020, 1000,2222);
 
         Airplane.compareAirplanes(air1,air2);
+
     }
 }

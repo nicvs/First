@@ -43,7 +43,6 @@ public class Airplane {
     }
     public int getLength(){ return length;}
 
-
     public Airplane(String manufacturer, int year, int length, int weight){
         this.manufacturer=manufacturer;
         this.year=year;
@@ -70,5 +69,4 @@ public class Airplane {
             airplane2.info();
         } else System.out.println("Длины самолетов равны");
     }
-
 }

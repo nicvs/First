@@ -27,5 +27,7 @@ public class Task2 {
         System.out.println("Выносливость после бега: "+player1.getStamina());
         System.out.println("Игроков в команде: "+Player.getCountPlayers());             //проверяем ушел ли из команды
 
+        Player.run(player1);
+        System.out.println("Игроков в команде: "+Player.getCountPlayers());
     }
 }

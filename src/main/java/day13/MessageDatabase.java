@@ -3,7 +3,7 @@ package day13;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MessageDatabase {
+public class MessageDatabase  {
     static List <Massege> massages = new ArrayList<>();
 
     public static void addNewMessage(User u1, User u2, String text){

@@ -1,7 +1,7 @@
 package day13;
 
 
-public class Task1 {
+public class Task1  {
     public static void main(String[] args) {
         User user1 = new User("Вася");
         User user2 = new User("Петя");
